@@ -2,11 +2,11 @@
   <br/>
 
   <div>
-    本仓库用于发布基于 <a href="https://github.com/3899/SimAdmin">3899/SimAdmin</a> 构建的安装脚本与分发资产。
+    本仓库用于发布基于 <a href="https://github.com/3899/SimAdmin">3899/SimAdmin</a> 构建的安装脚本与分发资产
   </div>
 
   <br/>
-  
+</div> 
   
 
 # SimAdmin - SIM/eSIM 中枢
