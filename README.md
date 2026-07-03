@@ -6,43 +6,8 @@
   </div>
 
   <br/>
-
-  <picture>
-    <img src="./static/Dashboard.png" width="100%" alt="Dashboard" />
-	<br/><br/>
-	<img src="./static/SIM.png" width="100%" alt="SIM" />
-	<br/><br/>
-	<img src="./static/eSIM.png" width="100%" alt="eSIM" />
-	<br/><br/>
-	<img src="./static/WiFi_Calling.png" width="100%" alt="WiFi_Calling" />
-	<br/><br/>
-	<img src="./static/Cellular_Network.png" width="100%" alt="Cellular_Network" />
-	<br/><br/>
-	<img src="./static/WLAN.png" width="100%" alt="WLAN" />
-	<br/><br/>
-	<img src="./static/SMS.png" width="100%" alt="SMS" />
-	<br/><br/>
-	<img src="./static/NotificationLogs.png" width="100%" alt="NotificationLogs" />
-	<br/><br/>
-	<img src="./static/NotificationRules.png" width="100%" alt="NotificationRules" />
-	<br/><br/>
-	<img src="./static/DeviceStatusRule.png" width="100%" alt="DeviceStatusRule" />
-	<br/><br/>
-	<img src="./static/NotificationChannels.png" width="100%" alt="NotificationChannels" />
-	<br/><br/>
-	<img src="./static/Automation.png" width="100%" alt="Automation" />
-	<br/><br/>
-	<img src="./static/Basic_Configuration.png" width="100%" alt="Basic_Configuration" />
-	<br/><br/>
-	<img src="./static/Security_Settings.png" width="100%" alt="Security_Settings" />
-	<br/><br/>
-	<img src="./static/OTA.png" width="100%" alt="OTA" />
-	<br/><br/>
-	<img src="./static/Dashboard_Dark.png" width="100%" alt="Dashboard_Dark" />
-	<br/><br/>
-  </picture>
   
-</div>
+  
 
 # SimAdmin - SIM/eSIM 中枢
 
@@ -79,23 +44,23 @@ SimAdmin 是一套面向 Debian 蜂窝 CPE、随身 WiFi、软路由类设备的
 
 ## 开源协议声明
 
-本项目采用 GNU General Public License v3.0 (GPLv3) 开源协议。
+本仓库是基于上游项目 [3899/SimAdmin](https://github.com/3899/SimAdmin) 的二次分发资产仓库，发布的安装脚本、文档和构建产物遵循上游项目的 GNU General Public License v3.0 (GPLv3) 许可证条款。
 
-你可以：
+根据 GPLv3，你可以：
 
 - 自由使用、研究、修改本软件。
 - 分发本软件副本。
 - 分发修改后的版本。
 
-但你必须：
+再次分发本软件或其修改版本时，需要遵守 GPLv3 要求，包括但不限于：
 
 1. 保留版权声明和许可证声明。
-2. 分发本软件或修改版本时，以 GPLv3 协议公开完整源代码。
-3. 基于本项目的衍生作品继续使用 GPLv3 协议。
+2. 提供对应版本的完整源代码或有效的源码获取方式。
+3. 基于本软件的衍生作品继续使用 GPLv3 协议分发。
 4. 明确标注修改内容和修改日期。
 5. 分发时附带完整 GPLv3 许可证文本。
 
-严禁将本项目或其衍生版本闭源后作为专有软件分发。
+本仓库不是上游官方仓库。如需查看原项目、版权信息和完整许可文本，请参考 [3899/SimAdmin](https://github.com/3899/SimAdmin) 以及本仓库中的 [LICENSE](./LICENSE)。
 
 ---
 
@@ -148,18 +113,6 @@ SimAdmin 是一套面向 Debian 蜂窝 CPE、随身 WiFi、软路由类设备的
 
 ## 🎖️ 鸣谢
 
-### 👥 贡献者
+### 👥 作者
 
-- [crossgg](https://github.com/crossgg)
-
-### 📦 参考项目
-
-- [project-cpe](https://github.com/1orz/project-cpe)
-- [SmsForwarder](https://github.com/pppscn/SmsForwarder)
-- [ddns-go](https://github.com/jeessy2/ddns-go)
-- [strongSwan](https://github.com/strongswan/strongswan) (VoWiFi / ePDG IPsec 隧道与 IKEv2/EAP-AKA 协议实现)
-- [smoltcp](https://github.com/smoltcp-rs/smoltcp) (用户态 TCP/IP 协议栈及虚拟网关路由设计)
-- [sip-core](https://github.com/snipsco/sip-core) (IMS SIP 信令解析与注册流处理)
-- [Open5GS](https://github.com/open5gs/open5gs) / [free5GC](https://github.com/free5gc/free5gc) (3GPP 标准网元 ePDG/IMS 功能及域名的互操作规范)
-- [AOSP CarrierConfig](https://android.googlesource.com/platform/packages/apps/CarrierConfig/) (安卓标准运营商配置与 3GPP 动态降级回退机制设计)
-- [mobile-broadband-provider-info](https://gitlab.gnome.org/GNOME/mobile-broadband-provider-info) (移动宽带运营商数据匹配与基准拨号参数设计)
+- [阿良丨很猛的阿良](https://github.com/3899)
