@@ -43,7 +43,7 @@ SimAdmin 是一套面向 Debian 蜂窝 CPE、随身 WiFi、软路由类设备的
 
 本仓库是基于上游项目 [3899/SimAdmin](https://github.com/3899/SimAdmin) 的二次分发资产仓库，发布的安装脚本、文档和构建产物遵循上游项目的 GNU General Public License v3.0 (GPLv3) 许可证条款。
 
-本仓库不是项目官方仓库。如需查看原项目、版权信息和完整许可文本，请参考 [3899/SimAdmin](https://github.com/3899/SimAdmin) 以及本仓库中的 [LICENSE](./LICENSE)。
+本仓库不是项目官方仓库。如需查看原项目、版权信息和完整许可文本，请参考 [3899/SimAdmin](https://github.com/3899/SimAdmin)。
 
 ---
 
